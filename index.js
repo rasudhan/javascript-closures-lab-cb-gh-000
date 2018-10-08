@@ -12,3 +12,9 @@ function bumpCounter() {
 
   return {addBump, getBumps};
 }
+
+function createAnimal(animalType) {
+  return function(deadlyDevice) {
+    return {animalType,deadlyDevice};
+  }
+}
